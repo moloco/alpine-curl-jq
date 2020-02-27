@@ -1,7 +1,9 @@
-# alpine-curl-jq
+# E2E script runtime
 
 This docker image is FROM [appropriate/curl][curl], and just adds
-[`jq`][jq] on top.
+[`jq`][jq] and bash on top.
+
+This docker image is to facilitate the curl-based e2e script development. 
 
 # To use it from your cloud build script
 

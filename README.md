@@ -10,7 +10,7 @@ This docker image is to facilitate the curl-based e2e script development.
 You can build this image for your project in the following way:
 
 ```
-gcloud builds submit --tag=gcr.io/$PROJECT_ID/alpine-curl-jq .
+gcloud builds submit --tag=gcr.io/$PROJECT_ID/e2e-script-runtime .
 ```
 
 [curl]: https://hub.docker.com/r/appropriate/curl/

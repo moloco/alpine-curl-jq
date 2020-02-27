@@ -1,4 +1,4 @@
-# docker-curl-jq
+# alpine-curl-jq
 
 This docker image is FROM [appropriate/curl][curl], and just adds
 [`jq`][jq] on top.
